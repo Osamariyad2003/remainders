@@ -105,7 +105,7 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          # Use safe alternatives like textContent
         />
       </head>
       <body
